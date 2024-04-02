@@ -203,6 +203,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/next@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@types/next@npm:9.0.0"
+  dependencies:
+    next: "npm:*"
+  checksum: 10c0/2148aadba745e6f094d33e483875656dece95e4049d7d99ce0ca0678035d1d48e73d6e2cba45e2b5fb0762bfd7b48587139d7ecf464876fb4fde9ff06cc249b8
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^20":
   version: 20.11.30
   resolution: "@types/node@npm:20.11.30"
@@ -710,14 +719,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gallery-web@workspace:."
   dependencies:
+    "@types/next": "npm:^9.0.0"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     autoprefixer: "npm:^10.0.1"
-    next: "npm:14.1.4"
+    next: "npm:^14.1.4"
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    react-icons: "npm:^5.0.1"
     tailwindcss: "npm:^3.3.0"
     typescript: "npm:^5"
   languageName: unknown
@@ -1157,7 +1168,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.1.4":
+"next@npm:*, next@npm:^14.1.4":
   version: 14.1.4
   resolution: "next@npm:14.1.4"
   dependencies:
@@ -1464,6 +1475,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 10c0/66dfc5f93e13d0674e78ef41f92ed21dfb80f9c4ac4ac25a4b51046d41d4d2186abc915b897f69d3d0ebbffe6184e7c5876f2af26bfa956f179225d921be713a
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "react-icons@npm:5.0.1"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/717022d93a3b2b30082f86fbb3c725a94a603b3fa1c611533439cc886f691a13b1833c30446d257a177667779239eac57411fa7516d8a4787bd735e965c9f63d
   languageName: node
   linkType: hard
 

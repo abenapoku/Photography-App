@@ -1,0 +1,49 @@
+.imagestyle{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallary{
+    font-size: 1.5rem; 
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+}
+.imageview{
+    opacity: 1;
+    transition-timing-function: ease-in;
+    transition-duration: 1000ms;
+}
+.imageviewoff{
+    opacity: 0;
+}
+.arrowcontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.arrowleft{
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;
+    width: 4rem; 
+    height: 4rem;
+}
+.arrowright{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;
+    width: 4rem; 
+    height: 4rem;
+}
+
